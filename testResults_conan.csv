@@ -1,0 +1,224 @@
+﻿Test#, Command line                                      , Result
+Test#, Command line                                      , Result
+1," tesseract ""images\basic_test\basic_test_30.png"" ""images\basic_test\basic_test_30"" -l eng -c page_separator="""" ", PASS
+2," tesseract ""images\basic_test\basic_test_38.png"" ""images\basic_test\basic_test_38"" -l eng -c page_separator="""" ", PASS
+3," tesseract ""images\font_size_images\font_size_8_test.png"" ""images\font_size_images\font_size_8_test"" -l eng -c page_separator="""" ", FAIL
+4," tesseract ""images\font_size_images\font_size_9_test.png"" ""images\font_size_images\font_size_9_test"" -l eng -c page_separator="""" ", FAIL
+5," tesseract ""images\font_size_images\font_size_10_test.png"" ""images\font_size_images\font_size_10_test"" -l eng -c page_separator="""" ", FAIL
+6," tesseract ""images\font_size_images\font_size_11_test.png"" ""images\font_size_images\font_size_11_test"" -l eng -c page_separator="""" ", FAIL
+7," tesseract ""images\font_size_images\font_size_12_test.png"" ""images\font_size_images\font_size_12_test"" -l eng -c page_separator="""" ", FAIL
+8," tesseract ""images\font_size_images\font_size_13_test.png"" ""images\font_size_images\font_size_13_test"" -l eng -c page_separator="""" ", PASS
+9," tesseract ""images\font_size_images\font_size_14_test.png"" ""images\font_size_images\font_size_14_test"" -l eng -c page_separator="""" ", PASS
+10," tesseract ""images\font_size_images\font_size_15_test.png"" ""images\font_size_images\font_size_15_test"" -l eng -c page_separator="""" ", PASS
+11," tesseract ""images\font_size_images\font_size_16_test.png"" ""images\font_size_images\font_size_16_test"" -l eng -c page_separator="""" ", PASS
+12," tesseract ""images\font_size_images\font_size_17_test.png"" ""images\font_size_images\font_size_17_test"" -l eng -c page_separator="""" ", PASS
+13," tesseract ""images\font_size_images\font_size_18_test.png"" ""images\font_size_images\font_size_18_test"" -l eng -c page_separator="""" ", PASS
+14," tesseract ""images\font_size_images\font_size_19_test.png"" ""images\font_size_images\font_size_19_test"" -l eng -c page_separator="""" ", PASS
+15," tesseract ""images\font_size_images\font_size_20_test.png"" ""images\font_size_images\font_size_20_test"" -l eng -c page_separator="""" ", PASS
+16," tesseract ""images\font_size_images\font_size_21_test.png"" ""images\font_size_images\font_size_21_test"" -l eng -c page_separator="""" ", PASS
+17," tesseract ""images\font_size_images\font_size_22_test.png"" ""images\font_size_images\font_size_22_test"" -l eng -c page_separator="""" ", PASS
+18," tesseract ""images\font_size_images\font_size_23_test.png"" ""images\font_size_images\font_size_23_test"" -l eng -c page_separator="""" ", PASS
+19," tesseract ""images\font_size_images\font_size_24_test.png"" ""images\font_size_images\font_size_24_test"" -l eng -c page_separator="""" ", PASS
+20," tesseract ""images\font_size_images\font_size_25_test.png"" ""images\font_size_images\font_size_25_test"" -l eng -c page_separator="""" ", PASS
+21," tesseract ""images\font_size_images\font_size_26_test.png"" ""images\font_size_images\font_size_26_test"" -l eng -c page_separator="""" ", PASS
+22," tesseract ""images\font_size_images\font_size_27_test.png"" ""images\font_size_images\font_size_27_test"" -l eng -c page_separator="""" ", PASS
+23," tesseract ""images\font_size_images\font_size_28_test.png"" ""images\font_size_images\font_size_28_test"" -l eng -c page_separator="""" ", PASS
+24," tesseract ""images\font_size_images\font_size_29_test.png"" ""images\font_size_images\font_size_29_test"" -l eng -c page_separator="""" ", PASS
+25," tesseract ""images\font_size_images\font_size_30_test.png"" ""images\font_size_images\font_size_30_test"" -l eng -c page_separator="""" ", PASS
+26," tesseract ""images\font_size_images\font_size_31_test.png"" ""images\font_size_images\font_size_31_test"" -l eng -c page_separator="""" ", PASS
+27," tesseract ""images\font_size_images\font_size_32_test.png"" ""images\font_size_images\font_size_32_test"" -l eng -c page_separator="""" ", PASS
+28," tesseract ""images\font_size_images\font_size_33_test.png"" ""images\font_size_images\font_size_33_test"" -l eng -c page_separator="""" ", PASS
+29," tesseract ""images\font_size_images\font_size_34_test.png"" ""images\font_size_images\font_size_34_test"" -l eng -c page_separator="""" ", PASS
+30," tesseract ""images\font_size_images\font_size_35_test.png"" ""images\font_size_images\font_size_35_test"" -l eng -c page_separator="""" ", PASS
+31," tesseract ""images\font_size_images\font_size_36_test.png"" ""images\font_size_images\font_size_36_test"" -l eng -c page_separator="""" ", PASS
+32," tesseract ""images\font_size_images\font_size_37_test.png"" ""images\font_size_images\font_size_37_test"" -l eng -c page_separator="""" ", PASS
+33," tesseract ""images\font_size_images\font_size_38_test.png"" ""images\font_size_images\font_size_38_test"" -l eng -c page_separator="""" ", PASS
+34," tesseract ""images\font_size_images\font_size_39_test.png"" ""images\font_size_images\font_size_39_test"" -l eng -c page_separator="""" ", PASS
+35," tesseract ""images\font_size_images\font_size_40_test.png"" ""images\font_size_images\font_size_40_test"" -l eng -c page_separator="""" ", PASS
+36," tesseract ""images\font_size_images\font_size_41_test.png"" ""images\font_size_images\font_size_41_test"" -l eng -c page_separator="""" ", PASS
+37," tesseract ""images\font_size_images\font_size_42_test.png"" ""images\font_size_images\font_size_42_test"" -l eng -c page_separator="""" ", PASS
+38," tesseract ""images\font_size_images\font_size_43_test.png"" ""images\font_size_images\font_size_43_test"" -l eng -c page_separator="""" ", PASS
+39," tesseract ""images\font_size_images\font_size_44_test.png"" ""images\font_size_images\font_size_44_test"" -l eng -c page_separator="""" ", PASS
+40," tesseract ""images\font_size_images\font_size_45_test.png"" ""images\font_size_images\font_size_45_test"" -l eng -c page_separator="""" ", PASS
+41," tesseract ""images\font_size_images\font_size_46_test.png"" ""images\font_size_images\font_size_46_test"" -l eng -c page_separator="""" ", PASS
+42," tesseract ""images\font_size_images\font_size_47_test.png"" ""images\font_size_images\font_size_47_test"" -l eng -c page_separator="""" ", PASS
+43," tesseract ""images\font_size_images\font_size_48_test.png"" ""images\font_size_images\font_size_48_test"" -l eng -c page_separator="""" ", PASS
+44," tesseract ""images\font_size_images\font_size_49_test.png"" ""images\font_size_images\font_size_49_test"" -l eng -c page_separator="""" ", PASS
+45," tesseract ""images\font_size_images\font_size_50_test.png"" ""images\font_size_images\font_size_50_test"" -l eng -c page_separator="""" ", PASS
+46," tesseract ""images\font_size_images\font_size_51_test.png"" ""images\font_size_images\font_size_51_test"" -l eng -c page_separator="""" ", PASS
+47," tesseract ""images\font_size_images\font_size_52_test.png"" ""images\font_size_images\font_size_52_test"" -l eng -c page_separator="""" ", PASS
+48," tesseract ""images\font_size_images\font_size_53_test.png"" ""images\font_size_images\font_size_53_test"" -l eng -c page_separator="""" ", PASS
+49," tesseract ""images\font_size_images\font_size_54_test.png"" ""images\font_size_images\font_size_54_test"" -l eng -c page_separator="""" ", PASS
+50," tesseract ""images\font_size_images\font_size_55_test.png"" ""images\font_size_images\font_size_55_test"" -l eng -c page_separator="""" ", PASS
+51," tesseract ""images\font_size_images\font_size_56_test.png"" ""images\font_size_images\font_size_56_test"" -l eng -c page_separator="""" ", PASS
+52," tesseract ""images\font_size_images\font_size_57_test.png"" ""images\font_size_images\font_size_57_test"" -l eng -c page_separator="""" ", PASS
+53," tesseract ""images\font_size_images\font_size_58_test.png"" ""images\font_size_images\font_size_58_test"" -l eng -c page_separator="""" ", PASS
+54," tesseract ""images\font_size_images\font_size_59_test.png"" ""images\font_size_images\font_size_59_test"" -l eng -c page_separator="""" ", PASS
+55," tesseract ""images\font_size_images\font_size_60_test.png"" ""images\font_size_images\font_size_60_test"" -l eng -c page_separator="""" ", PASS
+56," tesseract ""images\font_size_images\font_size_61_test.png"" ""images\font_size_images\font_size_61_test"" -l eng -c page_separator="""" ", PASS
+57," tesseract ""images\font_size_images\font_size_62_test.png"" ""images\font_size_images\font_size_62_test"" -l eng -c page_separator="""" ", PASS
+58," tesseract ""images\font_size_images\font_size_63_test.png"" ""images\font_size_images\font_size_63_test"" -l eng -c page_separator="""" ", PASS
+59," tesseract ""images\font_size_images\font_size_64_test.png"" ""images\font_size_images\font_size_64_test"" -l eng -c page_separator="""" ", PASS
+60," tesseract ""images\font_size_images\font_size_65_test.png"" ""images\font_size_images\font_size_65_test"" -l eng -c page_separator="""" ", PASS
+61," tesseract ""images\font_size_images\font_size_66_test.png"" ""images\font_size_images\font_size_66_test"" -l eng -c page_separator="""" ", PASS
+62," tesseract ""images\font_size_images\font_size_67_test.png"" ""images\font_size_images\font_size_67_test"" -l eng -c page_separator="""" ", PASS
+63," tesseract ""images\font_size_images\font_size_68_test.png"" ""images\font_size_images\font_size_68_test"" -l eng -c page_separator="""" ", PASS
+64," tesseract ""images\font_size_images\font_size_69_test.png"" ""images\font_size_images\font_size_69_test"" -l eng -c page_separator="""" ", PASS
+65," tesseract ""images\font_size_images\font_size_70_test.png"" ""images\font_size_images\font_size_70_test"" -l eng -c page_separator="""" ", PASS
+66," tesseract ""images\font_size_images\font_size_71_test.png"" ""images\font_size_images\font_size_71_test"" -l eng -c page_separator="""" ", PASS
+67," tesseract ""images\font_size_images\font_size_72_test.png"" ""images\font_size_images\font_size_72_test"" -l eng -c page_separator="""" ", PASS
+68," tesseract ""images\fonts_images\ahronbd_38_english.png"" ""images\fonts_images\ahronbd_38_english"" -l eng -c page_separator="""" ", PASS
+69," tesseract ""images\fonts_images\georgia_38_english.png"" ""images\fonts_images\georgia_38_english"" -l eng -c page_separator="""" ", PASS
+70," tesseract ""images\fonts_images\arial_38_english.png"" ""images\fonts_images\arial_38_english"" -l eng -c page_separator="""" ", PASS
+71," tesseract ""images\fonts_images\Gisha_38_english.png"" ""images\fonts_images\Gisha_38_english"" -l eng -c page_separator="""" ", PASS
+72," tesseract ""images\fonts_images\ariblk_38_english.png"" ""images\fonts_images\ariblk_38_english"" -l eng -c page_separator="""" ", PASS
+73," tesseract ""images\fonts_images\gishabd_38_english.png"" ""images\fonts_images\gishabd_38_english"" -l eng -c page_separator="""" ", PASS
+74," tesseract ""images\fonts_images\impact_38_english.png"" ""images\fonts_images\impact_38_english"" -l eng -c page_separator="""" ", FAIL
+75," tesseract ""images\fonts_images\bahnschrift_38_english.png"" ""images\fonts_images\bahnschrift_38_english"" -l eng -c page_separator="""" ", PASS
+76," tesseract ""images\fonts_images\calibri_38_english.png"" ""images\fonts_images\calibri_38_english"" -l eng -c page_separator="""" ", PASS
+77," tesseract ""images\fonts_images\Inkfree_38_english.png"" ""images\fonts_images\Inkfree_38_english"" -l eng -c page_separator="""" ", FAIL
+78," tesseract ""images\fonts_images\cambria_38_english.png"" ""images\fonts_images\cambria_38_english"" -l eng -c page_separator="""" ", PASS
+79," tesseract ""images\fonts_images\lvnm_38_english.png"" ""images\fonts_images\lvnm_38_english"" -l eng -c page_separator="""" ", FAIL
+80," tesseract ""images\fonts_images\lvnmbd_38_english.png"" ""images\fonts_images\lvnmbd_38_english"" -l eng -c page_separator="""" ", FAIL
+81," tesseract ""images\fonts_images\cambria_38_english.png"" ""images\fonts_images\cambria_38_english"" -l eng -c page_separator="""" ", PASS
+82," tesseract ""images\fonts_images\Candara_38_english.png"" ""images\fonts_images\Candara_38_english"" -l eng -c page_separator="""" ", PASS
+83," tesseract ""images\fonts_images\lucon_38_english.png"" ""images\fonts_images\lucon_38_english"" -l eng -c page_separator="""" ", FAIL
+84," tesseract ""images\fonts_images\comic_38_english.png"" ""images\fonts_images\comic_38_english"" -l eng -c page_separator="""" ", PASS
+85," tesseract ""images\fonts_images\l_10646_38_english.png"" ""images\fonts_images\l_10646_38_english"" -l eng -c page_separator="""" ", PASS
+86," tesseract ""images\fonts_images\consola_38_english.png"" ""images\fonts_images\consola_38_english"" -l eng -c page_separator="""" ", PASS
+87," tesseract ""images\fonts_images\None_38_english.png"" ""images\fonts_images\None_38_english"" -l eng -c page_separator="""" ", FAIL
+88," tesseract ""images\fonts_images\constan_38_english.png"" ""images\fonts_images\constan_38_english"" -l eng -c page_separator="""" ", PASS
+89," tesseract ""images\fonts_images\micross_38_english.png"" ""images\fonts_images\micross_38_english"" -l eng -c page_separator="""" ", PASS
+90," tesseract ""images\fonts_images\corbel_38_english.png"" ""images\fonts_images\corbel_38_english"" -l eng -c page_separator="""" ", FAIL
+91," tesseract ""images\fonts_images\mriam_38_english.png"" ""images\fonts_images\mriam_38_english"" -l eng -c page_separator="""" ", PASS
+92," tesseract ""images\fonts_images\cour_38_english.png"" ""images\fonts_images\cour_38_english"" -l eng -c page_separator="""" ", FAIL
+93," tesseract ""images\fonts_images\mriamc_38_english.png"" ""images\fonts_images\mriamc_38_english"" -l eng -c page_separator="""" ", FAIL
+94," tesseract ""images\fonts_images\david_38_english.png"" ""images\fonts_images\david_38_english"" -l eng -c page_separator="""" ", PASS
+95," tesseract ""images\fonts_images\msgothic_38_english.png"" ""images\fonts_images\msgothic_38_english"" -l eng -c page_separator="""" ", FAIL
+96," tesseract ""images\fonts_images\davidbd_38_english.png"" ""images\fonts_images\davidbd_38_english"" -l eng -c page_separator="""" ", PASS
+97," tesseract ""images\fonts_images\nrkis_38_english.png"" ""images\fonts_images\nrkis_38_english"" -l eng -c page_separator="""" ", PASS
+98," tesseract ""images\fonts_images\ebrima_38_english.png"" ""images\fonts_images\ebrima_38_english"" -l eng -c page_separator="""" ", FAIL
+99," tesseract ""images\fonts_images\rod_38_english.png"" ""images\fonts_images\rod_38_english"" -l eng -c page_separator="""" ", FAIL
+100," tesseract ""images\fonts_images\FORTE_38_english.png"" ""images\fonts_images\FORTE_38_english"" -l eng -c page_separator="""" ", FAIL
+101," tesseract ""images\fonts_images\segoepr_38_english.png"" ""images\fonts_images\segoepr_38_english"" -l eng -c page_separator="""" ", PASS
+102," tesseract ""images\fonts_images\framd_38_english.png"" ""images\fonts_images\framd_38_english"" -l eng -c page_separator="""" ", FAIL
+103," tesseract ""images\fonts_images\segoesc_38_english.png"" ""images\fonts_images\segoesc_38_english"" -l eng -c page_separator="""" ", FAIL
+104," tesseract ""images\fonts_images\frank_38_english.png"" ""images\fonts_images\frank_38_english"" -l eng -c page_separator="""" ", PASS
+105," tesseract ""images\fonts_images\segoeui_38_english.png"" ""images\fonts_images\segoeui_38_english"" -l eng -c page_separator="""" ", PASS
+106," tesseract ""images\fonts_images\Gabriola_38_english.png"" ""images\fonts_images\Gabriola_38_english"" -l eng -c page_separator="""" ", FAIL
+107," tesseract ""images\fonts_images\tahoma_38_english.png"" ""images\fonts_images\tahoma_38_english"" -l eng -c page_separator="""" ", PASS
+108," tesseract ""images\fonts_images\gadugi_38_english.png"" ""images\fonts_images\gadugi_38_english"" -l eng -c page_separator="""" ", PASS
+109," tesseract ""images\fonts_images\times_38_english.png"" ""images\fonts_images\times_38_english"" -l eng -c page_separator="""" ", PASS
+110," tesseract ""images\fonts_images\ahronbd_38_hebrew.png"" ""images\fonts_images\ahronbd_38_hebrew"" -l heb -c page_separator="""" ", FAIL
+111," tesseract ""images\fonts_images\arial_38_hebrew.png"" ""images\fonts_images\arial_38_hebrew"" -l heb -c page_separator="""" ", PASS
+112," tesseract ""images\fonts_images\Gisha_38_hebrew.png"" ""images\fonts_images\Gisha_38_hebrew"" -l heb -c page_separator="""" ", PASS
+113," tesseract ""images\fonts_images\gishabd_38_hebrew.png"" ""images\fonts_images\gishabd_38_hebrew"" -l heb -c page_separator="""" ", FAIL
+114," tesseract ""images\fonts_images\calibri_38_hebrew.png"" ""images\fonts_images\calibri_38_hebrew"" -l heb -c page_separator="""" ", FAIL
+115," tesseract ""images\fonts_images\lvnm_38_hebrew.png"" ""images\fonts_images\lvnm_38_hebrew"" -l heb -c page_separator="""" ", PASS
+116," tesseract ""images\fonts_images\lvnmbd_38_hebrew.png"" ""images\fonts_images\lvnmbd_38_hebrew"" -l heb -c page_separator="""" ", PASS
+117," tesseract ""images\fonts_images\l_10646_38_hebrew.png"" ""images\fonts_images\l_10646_38_hebrew"" -l heb -c page_separator="""" ", PASS
+118," tesseract ""images\fonts_images\None_38_hebrew.png"" ""images\fonts_images\None_38_hebrew"" -l heb -c page_separator="""" ", FAIL
+119," tesseract ""images\fonts_images\micross_38_hebrew.png"" ""images\fonts_images\micross_38_hebrew"" -l heb -c page_separator="""" ", PASS
+120," tesseract ""images\fonts_images\mriam_38_hebrew.png"" ""images\fonts_images\mriam_38_hebrew"" -l heb -c page_separator="""" ", PASS
+121," tesseract ""images\fonts_images\cour_38_hebrew.png"" ""images\fonts_images\cour_38_hebrew"" -l heb -c page_separator="""" ", FAIL
+122," tesseract ""images\fonts_images\mriamc_38_hebrew.png"" ""images\fonts_images\mriamc_38_hebrew"" -l heb -c page_separator="""" ", FAIL
+123," tesseract ""images\fonts_images\david_38_hebrew.png"" ""images\fonts_images\david_38_hebrew"" -l heb -c page_separator="""" ", FAIL
+124," tesseract ""images\fonts_images\davidbd_38_hebrew.png"" ""images\fonts_images\davidbd_38_hebrew"" -l heb -c page_separator="""" ", PASS
+125," tesseract ""images\fonts_images\nrkis_38_hebrew.png"" ""images\fonts_images\nrkis_38_hebrew"" -l heb -c page_separator="""" ", PASS
+126," tesseract ""images\fonts_images\rod_38_hebrew.png"" ""images\fonts_images\rod_38_hebrew"" -l heb -c page_separator="""" ", PASS
+127," tesseract ""images\fonts_images\frank_38_hebrew.png"" ""images\fonts_images\frank_38_hebrew"" -l heb -c page_separator="""" ", PASS
+128," tesseract ""images\fonts_images\segoeui_38_hebrew.png"" ""images\fonts_images\segoeui_38_hebrew"" -l heb -c page_separator="""" ", FAIL
+129," tesseract ""images\fonts_images\tahoma_38_hebrew.png"" ""images\fonts_images\tahoma_38_hebrew"" -l heb -c page_separator="""" ", PASS
+130," tesseract ""images\fonts_images\times_38_hebrew.png"" ""images\fonts_images\times_38_hebrew"" -l heb -c page_separator="""" ", PASS
+131," tesseract ""images\text_length_images\one_word_image.png"" ""images\text_length_images\one_word_image"" -l eng -c page_separator="""" ", PASS
+132," tesseract ""images\text_length_images\1_lines_image.png"" ""images\text_length_images\1_lines_image"" -l eng -c page_separator="""" ", PASS
+133," tesseract ""images\text_length_images\2_lines_image.png"" ""images\text_length_images\2_lines_image"" -l eng -c page_separator="""" ", PASS
+134," tesseract ""images\text_length_images\4_lines_image.png"" ""images\text_length_images\4_lines_image"" -l eng -c page_separator="""" ", PASS
+135," tesseract ""images\text_length_images\11_lines_image.png"" ""images\text_length_images\11_lines_image"" -l eng -c page_separator="""" ", PASS
+136," tesseract ""images\text_length_images\12_lines_image.png"" ""images\text_length_images\12_lines_image"" -l eng -c page_separator="""" ", PASS
+137," tesseract ""images\position_images\position_1.png"" ""images\position_images\position_1"" -l eng -c page_separator="""" ", PASS
+138," tesseract ""images\position_images\position_2.png"" ""images\position_images\position_2"" -l eng -c page_separator="""" ", PASS
+139," tesseract ""images\position_images\position_3.png"" ""images\position_images\position_3"" -l eng -c page_separator="""" ", PASS
+140," tesseract ""images\position_images\position_4.png"" ""images\position_images\position_4"" -l eng -c page_separator="""" ", PASS
+141," tesseract ""images\position_images\position_5.png"" ""images\position_images\position_5"" -l eng -c page_separator="""" ", PASS
+142," tesseract ""images\position_images\position_6.png"" ""images\position_images\position_6"" -l eng -c page_separator="""" ", PASS
+143," tesseract ""images\position_images\position_7.png"" ""images\position_images\position_7"" -l eng -c page_separator="""" ", PASS
+144," tesseract ""images\position_images\position_8.png"" ""images\position_images\position_8"" -l eng -c page_separator="""" ", PASS
+145," tesseract ""images\position_images\position_9.png"" ""images\position_images\position_9"" -l eng -c page_separator="""" ", PASS
+146," tesseract ""images\position_images\rot_90.png"" ""images\position_images\rot_90"" -l eng -c page_separator="""" ", FAIL
+147," tesseract ""images\position_images\rot_180.png"" ""images\position_images\rot_180"" -l eng -c page_separator="""" ", FAIL
+148," tesseract ""images\position_images\rot_270.png"" ""images\position_images\rot_270"" -l eng -c page_separator="""" ", FAIL
+149," tesseract ""images\language_images\numbers_image.png"" ""images\language_images\numbers_image"" -l eng -c page_separator="""" ", PASS
+150," tesseract ""images\language_images\symbols_image.png"" ""images\language_images\symbols_image"" -l eng -c page_separator="""" ", FAIL
+151," tesseract ""images\language_images\english_alphabets_lower.png"" ""images\language_images\english_alphabets_lower"" -l eng -c page_separator="""" ", PASS
+152," tesseract ""images\language_images\english_alphabets_upper.png"" ""images\language_images\english_alphabets_upper"" -l eng -c page_separator="""" ", PASS
+153," tesseract ""images\language_images\spanish_alphabets_lower.png"" ""images\language_images\spanish_alphabets_lower"" -l spa -c page_separator="""" ", FAIL
+154," tesseract ""images\language_images\spanish_alphabets_upper.png"" ""images\language_images\spanish_alphabets_upper"" -l spa -c page_separator="""" ", FAIL
+155," tesseract ""images\language_images\spanish_accent.png"" ""images\language_images\spanish_accent"" -l spa -c page_separator="""" ", FAIL
+156," tesseract ""images\language_images\spanish_question.png"" ""images\language_images\spanish_question"" -l spa -c page_separator="""" ", PASS
+157," tesseract ""images\language_images\swedish_alphabets_lower.png"" ""images\language_images\swedish_alphabets_lower"" -l swe -c page_separator="""" ", FAIL
+158," tesseract ""images\language_images\swedish_alphabets_upper.png"" ""images\language_images\swedish_alphabets_upper"" -l swe -c page_separator="""" ", FAIL
+159," tesseract ""images\language_images\swedish_sentence_1.png"" ""images\language_images\swedish_sentence_1"" -l swe -c page_separator="""" ", PASS
+160," tesseract ""images\language_images\swedish_sentence_2.png"" ""images\language_images\swedish_sentence_2"" -l swe -c page_separator="""" ", PASS
+161," tesseract ""images\language_images\hebrew_alphabets.png"" ""images\language_images\hebrew_alphabets"" -l heb -c page_separator="""" ", PASS
+162," tesseract ""images\language_images\hebrew_sentence.png"" ""images\language_images\hebrew_sentence"" -l heb -c page_separator="""" ", FAIL
+163," tesseract ""images\line_word_spacing\0_word_spaces.png"" ""images\line_word_spacing\0_word_spaces"" -l eng -c page_separator="""" ", PASS
+164," tesseract ""images\line_word_spacing\4_word_spaces.png"" ""images\line_word_spacing\4_word_spaces"" -l eng -c page_separator="""" ", PASS
+165," tesseract ""images\line_word_spacing\8_word_spaces.png"" ""images\line_word_spacing\8_word_spaces"" -l eng -c page_separator="""" ", PASS
+166," tesseract ""images\line_word_spacing\4_line_spaces.png"" ""images\line_word_spacing\4_line_spaces"" -l eng -c page_separator="""" ", FAIL
+167," tesseract ""images\line_word_spacing\8_line_spaces.png"" ""images\line_word_spacing\8_line_spaces"" -l eng -c page_separator="""" ", FAIL
+168," tesseract ""images\empty_image"" ""images\empty_image"" page_separator=""""", FAIL
+169," tesseract ""images\text_length_images\12_lines_image.png"" ""images\text_length_images\12_lines_image"" -l eng -c page_separator="""" ", FAIL
+170," tesseract ""images\font_size_combinations\sizes_14_11.png"" ""images\font_size_combinations\sizes_14_11"" -l eng -c page_separator="""" ", FAIL
+171," tesseract ""images\font_size_combinations\sizes_16_11.png"" ""images\font_size_combinations\sizes_16_11"" -l eng -c page_separator="""" ", FAIL
+172," tesseract ""images\font_size_combinations\sizes_18_11.png"" ""images\font_size_combinations\sizes_18_11"" -l eng -c page_separator="""" ", FAIL
+173," tesseract ""images\font_size_combinations\sizes_20_11.png"" ""images\font_size_combinations\sizes_20_11"" -l eng -c page_separator="""" ", FAIL
+174," tesseract ""images\font_size_combinations\sizes_11_14.png"" ""images\font_size_combinations\sizes_11_14"" -l eng -c page_separator="""" ", FAIL
+175," tesseract ""images\font_size_combinations\sizes_11_16.png"" ""images\font_size_combinations\sizes_11_16"" -l eng -c page_separator="""" ", FAIL
+176," tesseract ""images\font_size_combinations\sizes_11_18.png"" ""images\font_size_combinations\sizes_11_18"" -l eng -c page_separator="""" ", FAIL
+177," tesseract ""images\font_size_combinations\sizes_11_20.png"" ""images\font_size_combinations\sizes_11_20"" -l eng -c page_separator="""" ", FAIL
+178," tesseract ""images\font_size_combinations\small_big_sizes.png"" ""images\font_size_combinations\small_big_sizes"" -l eng -c page_separator="""" ", FAIL
+179," tesseract ""images\fonts_combinations\arial_and_times.png"" ""images\fonts_combinations\arial_and_times"" -l eng -c page_separator="""" ", PASS
+180," tesseract ""images\fonts_combinations\times_and_tahoma.png"" ""images\fonts_combinations\times_and_tahoma"" -l eng -c page_separator="""" ", PASS
+181," tesseract ""images\fonts_combinations\tahoma_and_georgia.png"" ""images\fonts_combinations\tahoma_and_georgia"" -l eng -c page_separator="""" ", PASS
+182," tesseract ""images\fonts_combinations\georgia_and_cour.png"" ""images\fonts_combinations\georgia_and_cour"" -l eng -c page_separator="""" ", PASS
+183," tesseract ""images\fonts_combinations\cour_and_FORTE.png"" ""images\fonts_combinations\cour_and_FORTE"" -l eng -c page_separator="""" ", PASS
+184," tesseract ""images\language_combinations\english_and_spanish.png"" ""images\language_combinations\english_and_spanish"" -l eng+spa -c page_separator="""" ", FAIL
+185," tesseract ""images\language_combinations\english_and_spanish.png"" ""images\language_combinations\english_and_spanish"" -l spa+eng -c page_separator="""" ", FAIL
+186," tesseract ""images\language_combinations\english_and_swedish.png"" ""images\language_combinations\english_and_swedish"" -l eng+swe -c page_separator="""" ", FAIL
+187," tesseract ""images\language_combinations\english_and_swedish.png"" ""images\language_combinations\english_and_swedish"" -l swe+eng -c page_separator="""" ", PASS
+188," tesseract ""images\language_combinations\spanish_and_swedish.png"" ""images\language_combinations\spanish_and_swedish"" -l spa+swe -c page_separator="""" ", FAIL
+189," tesseract ""images\language_combinations\spanish_and_swedish.png"" ""images\language_combinations\spanish_and_swedish"" -l swe+spa -c page_separator="""" ", FAIL
+190," tesseract ""images\language_combinations\english_spanish_swedish"" ""images\language_combinations\english_spanish_swedish"" -l eng+spa+swe -c page_separator="""" ", FAIL
+191," tesseract ""images\language_combinations\english_spanish_swedish"" ""images\language_combinations\english_spanish_swedish"" -l eng+swe+spa -c page_separator="""" ", FAIL
+192," tesseract ""images\language_combinations\english_spanish_swedish"" ""images\language_combinations\english_spanish_swedish"" -l spa+eng+swe -c page_separator="""" ", FAIL
+193," tesseract ""images\language_combinations\english_spanish_swedish"" ""images\language_combinations\english_spanish_swedish"" -l spa+swe+eng -c page_separator="""" ", FAIL
+194," tesseract ""images\fonts_images\ariblk_38_english.png"" ""images\fonts_images\ariblk_38_english"" -l eng -c page_separator=""""  -c tessedit_char_blacklist=""a"" ", PASS
+195," tesseract ""images\fonts_images\ariblk_38_english.png"" ""images\fonts_images\ariblk_38_english"" -l eng -c page_separator=""""  -c tessedit_char_blacklist=""k"" ", PASS
+196," tesseract ""images\fonts_images\ariblk_38_english.png"" ""images\fonts_images\ariblk_38_english"" -l eng -c page_separator=""""  -c tessedit_char_blacklist=""karem"" ", PASS
+197," tesseract ""images\fonts_images\ariblk_38_english.png"" ""images\fonts_images\ariblk_38_english"" -l eng -c page_separator=""""  -c tessedit_char_blacklist=""kareem"" ", PASS
+198," tesseract ""images\fonts_images\ariblk_38_english.png"" ""images\fonts_images\ariblk_38_english"" -l eng -c page_separator=""""  -c tessedit_char_blacklist=""abcdefghijklnopqrstuvwxyz"" ", FAIL
+199," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_blacklist=""karem"" ", FAIL
+200," tesseract ""images\text_length_images\12_lines_image.png"" ""images\text_length_images\12_lines_image"" -l eng -c page_separator=""""  -c tessedit_char_blacklist=""o"" ", PASS
+201," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_unblacklist=""m"" ", FAIL
+202," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_unblacklist=""mosa"" ", FAIL
+203," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_unblacklist=""abcdefghijklmnopqrstuvwxyz"" ", FAIL
+204," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_unblacklist=""m""  -c tessedit_char_blacklist=""k"" ", FAIL
+205," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_unblacklist=""m""  -c tessedit_char_blacklist=""m"" ", FAIL
+206," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_unblacklist=""m""  -c tessedit_char_blacklist=""mosa"" ", FAIL
+207," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_unblacklist=""m""  -c tessedit_char_blacklist=""abcdefghijklmnopqrstuvwxyz"" ", FAIL
+208," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_unblacklist=""karem""  -c tessedit_char_blacklist=""abcdefghijklmnopqrstuvwxyz"" ", FAIL
+209," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_unblacklist=""abcdefghijklmnopqrstuvwxyz""  -c tessedit_char_blacklist=""karemos"" ", FAIL
+210," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_whitelist=""karem"" ", FAIL
+211," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_whitelist=""abcdefghijklmnopqrstuvwxyz"" ", FAIL
+212," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_whitelist=""abcdefghijklmnopqrstuvwxyz""  -c tessedit_char_blacklist=""mosa"" ", FAIL
+213," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_whitelist=""mosa""  -c tessedit_char_blacklist=""bcdefghijklnpqrtuvwxyz"" ", FAIL
+214," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_whitelist=""karem""  -c tessedit_char_blacklist=""karem"" ", FAIL
+215," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_whitelist=""mosa""  -c tessedit_char_blacklist=""bcdefghijklnpqrtuvwxyz"" ", FAIL
+216," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_whitelist=""mosa""  -c tessedit_char_unblacklist=""kfc"" ", FAIL
+217," tesseract ""images\config_images\english_28_letters_double.png"" ""images\config_images\english_28_letters_double"" -l eng -c page_separator=""""  -c tessedit_char_whitelist=""mosa""  -c tessedit_char_unblacklist=""karemos"" ", FAIL
+218," tesseract ""images\page_seprator_tools\basic_test.txt"" ""images\page_seprator_tools\basic_test.txt"" -l eng -c page_separator=""aaaaaaaaaa"" ", FAIL
+219," tesseract ""images\page_seprator_tools\complex_test.txt"" ""images\page_seprator_tools\complex_test.txt"" -l eng -c page_separator=""aaaaaaaaaa"" ", FAIL
+220," tesseract ""images\page_seprator_tools\complex_test.txt"" ""images\page_seprator_tools\complex_test.txt"" -l eng -c page_separator=""aaaaaaaaaa""  -c tessedit_char_blacklist=""a"" ", FAIL
+221," tesseract ""images\page_seprator_tools\complex_test.txt"" ""images\page_seprator_tools\complex_test.txt"" -l eng -c page_separator=""awawwaaa waaa awwwa wwa ww aawwwaa awwwaw awwwawawawawaaawawaw awaaawaw awawaawaawawawawawawaawawaawaawawawawaaawawaawawawawawwaawawwaawawawwaawawawaw"" ", FAIL
+222," tesseract ""images\page_seprator_tools\complex_test.txt"" ""images\page_seprator_tools\complex_test.txt"" -l eng -c page_separator=""aaaaaaaaaa""  -c tessedit_char_whitelist=""thisfulineo"" ", FAIL
