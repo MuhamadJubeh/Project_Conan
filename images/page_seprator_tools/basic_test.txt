@@ -1,0 +1,2 @@
+images\font_size_images\font_size_8_test.png
+images\font_size_images\font_size_64_test.png

@@ -1,0 +1,4 @@
+images\text_length_images\one_word_image.png
+images\text_length_images\1_lines_image.png
+images\text_length_images\2_lines_image.png
+images\text_length_images\4_lines_image.png
